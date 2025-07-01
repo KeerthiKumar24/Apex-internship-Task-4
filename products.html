@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products | Keerthi Kumar Nookala</title>
+  <link rel="stylesheet" href="products.css" />
+</head>
+<body>
+  <header>
+    <h1>Explore Products</h1>
+    <p>Use filters to find products by category, rating, or price.</p>
+  </header>
+
+  <section class="filters">
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Books">Books</option>
+      <option value="Clothing">Clothing</option>
+    </select>
+
+    <select id="ratingFilter">
+      <option value="">All Ratings</option>
+      <option value="5">5 ⭐</option>
+      <option value="4">4 ⭐ & up</option>
+      <option value="3">3 ⭐ & up</option>
+    </select>
+
+    <select id="priceFilter">
+      <option value="">All Prices</option>
+      <option value="low">Below ₹500</option>
+      <option value="mid">₹500–₹1000</option>
+      <option value="high">Above ₹1000</option>
+    </select>
+  </section>
+
+  <section id="productList" class="product-list">
+    <!-- JS will generate products here -->
+  </section>
+
+  <footer>
+    <p>© 2025 Keerthi Kumar</p>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html>
